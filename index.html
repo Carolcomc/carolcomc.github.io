@@ -1,82 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Igualdade de gênero - Amor e liberdade</title>
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Igualdade - Amor e liberdade</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- Font -->
-	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/1e2122a384.js" crossorigin="anonymous"></script>
-	<meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/1e2122a384.js" crossorigin="anonymous"></script>
+    <!-- Folha de estilo -->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!-- Icone navegador -->
+    <link rel="shortcut icon" href="img/igualdade.svg">
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-        <img id="logo" src="logo_transparent.png" alt="Nossos Mares"/>
+    <header>
+        <div id="logodiv">
+            <a href="#imagemFundo">
+                <img id="logo" src="img/logo.png" alt="Vida Terrestre">
+            </a>
+        </div>
+
+
+        <nav>
             <ul id="menu">
-                <li><a href="#projeto">Inicio</a></li>
-                <li><a href="#selecao">Projeto ONU</a></li>
-                <li><a href="#ecopontos">Objetivos</a></li>
-                <li><a href="#sobre">Sobre a Escritora</a></li>
+                <li><a class="amenu" href="#projeto">Projeto</a></li>
+                <li><a class="amenu" href="#metas">Metas</a></li>
+                <li><a class="amenu" href="#mulheres">Mulheres</a></li>
+                <li><a class="amenu" href="#ajudar">Ajudar</a></li>
+                <li><a class="amenu" href="#contato">Contato</a></li>
             </ul>
+        </nav>
+
+        
     </header>
+    <section id=imagemFundo>
+        <h1 id="titulo">Igualdade de gênero</h1>
+        <h2 id="subtitulo">Saiba como proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres .
+        </h2>
+        <a id="acao" href="#projeto">INICIAR</a>
+    </section>
+    <section id="projeto" class=destaque>
+        <h3 class="centralizado">Projeto</h3>
+        <div class="coluna dois">
+            <iframe id="video" width="100%" height="40%" src="https://www.youtube.com/embed/Q5TYYyD7HB8" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="coluna dois justificado">
 
-	<div class="baner" id="inicio">
-		<div class="text_inicio">
-			<h1>
-			Igualdade de gênero
-		</h1>
-		<h2>
-			Saiba mais sobre um dos assuntos mais discutidos ultimamente, e se informe de como a ONU(Organização das Nações Unidas) vem se inovando para tornar esse debate bem mais acessível ao mundo todo!
-			
-		</h2>
-		<a href="">Saber mais</a>
-		</div>
-		
-	</div>
+            <p>Para falarmos de igualdade de gênero precisamos entender o que este conceito significa. Basicamente igualdade de gênero é um conceito que define a busca da igualdade entre os membros dos dois gêneros humanos, homens e mulheres. E como sabemos a sociedade tem uma grande e forte base machista e patriarcal, que impôs a ideia de que mulheres são inferiores aos homens. Com isso, a ONU (Organização das Nações Unidas) criou a campanha Transformando Nosso Mundo: A Agenda 2030 para o Desenvolvimento Sustentável, onde um dos seus objetivos é Alcançar a igualdade de gênero e empoderar todas as mulheres e meninas. Campanha que é deveras importante para que as mulheres sejam tratadas com equidade.
+            </p>
+            <p>Estereótipo é nada mais nada menos que representações generalizadas e socialmente valorizadas acerca do que os homens e as mulheres devem fazer, por exemplo, quando dizem que a mulher dirige mal e o homem dirige bem, ou o homem produz e a mulher reproduz. Esse conceito afeta diretamente o conceito de identidade de gênero, pois esses estereótipos que na maioria das vezes são impostos por homens acaba diminuindo a importância da mulher em vários aspectos. </p>
+            <p>Papéis sociais de género são comportamentos aprendidos numa determinada sociedade, que fazem com que os seus membros percepcionem certas atividades como pertencentes a homens ou a mulheres, valorizando-os de forma diferente.</p>
+        </div>
+    </section>
 
-	<div class="video">
-		<center>
-			<h1>Projeto</h1>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/ZCGLC-vziRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</center>
-	</div>
+    <!-- Metas ODS 5 -->
+    <section id="metas">
+        <h3 class="centralizado">Metas</h3>
+        <div class="coluna quatro centralizado">
+            <div class=icone>
+                <img class="iconeimg" src="img/punho.svg" alt="Reflorestar" />
+            </div>
+            <h4 class="titulotopico">Reformas para direitos iguais</h4>
+            <p class="topico">Realizar reformas para dar às mulheres direitos iguais aos recursos econômicos, bem como o acesso a propriedade e controle sobre a terra e outras formas de propriedade, serviços financeiros, herança e os recursos naturais, de acordo com as leis nacionais.
+            </p>
+        </div>
+        <div class="coluna quatro centralizado">
+            <div class=icone>
+                <img class="iconeimg" src="img/campanha.svg" alt="Restauração do solo" />
+            </div>
+            <h4 class="titulotopico">Uso da tecnologia</h4>
+            <p class="topico">Aumentar o uso de tecnologias de base, em particular as tecnologias de informação e comunicação, para promover o empoderamento das mulheres.
+            </p>
+        </div>
+        <div class="coluna quatro centralizado">
+            <div class=icone>
+                <img class="iconeimg" src="img/igual.svg" alt="Urso panda" />
+            </div>
+            <h4 class="titulotopico">Igualdade</h4>
+            <p class="topico">Adotar e fortalecer políticas sólidas e legislação aplicável para a promoção da igualdade de gênero e o empoderamento de todas as mulheres e meninas em todos os níveis.</p>
+        </div>
+        <div class="coluna quatro centralizado">
+            <div class="icone">
+                <img class="iconeimg" src="img/poder.svg" alt="Montanhas" />
+            </div>
+            <h4 class="titulotopico">Garantir oportunidades igualitárias</h4>
+            <p>garantir a participação plena e efetiva das mulheres e a igualdade de oportunidades para a liderança em todos os níveis de tomada de decisão na vida política, econômica e pública</p>
+        </div>
+    </section>
+    <section>
+        <div class="como ajudar" id="ajudar">
+            <h3>Como ajudar?</h3>
+            <p>Sou mulher, estudo, trabalho, faço cursos, não nasci em um lar com condições financeiras maravilhosas, mas tive o necessário para crescer bem. Sou branca, estudei em uma boa escola Federal, entendo meus privilégios, porém muitas mulheres podem não ter tido nem 1% do que eu tive em toda a minha vida. Eu sofri e sofro com o machismo e o patriarcado enraizado na sociedade, e tenho pleno entendimento que talvez eu não saiba 1% do que outras mulheres possam ter sofrido com essa descriminação. </p>
+            <p>Com certeza eu digo que, o nosso papel é observar o simples, o dia a dia. Mulheres são acediadas no transporte público todos os dias, o que nos fazemos? Devemos intervir, perceber sinais de violência, tanto fisica ou mental. Devemos apoiar mulheres a serem e ocuparem qualquer lugar na sociedade!</p>
+        </div>
+    </section>
+<!-- Sobre mim -->
+    <section id="eu" class="sobre">
+        <div class="coluna dois">
+            <h3 class="centralizado">Quem sou eu?</h3>
+            <h4 class="centralizado">Caroline dos Santos Lage</h4>
+            <p class="justificado">Meu nome é Carol Lage, tenho 18 anos, cursei 3 anos de ensino técnico em informática no IFMG. Hoje em dia eu faço Engenharia da Computação, mas não trabalho na área de tecnologia. Uma mulher que viu na tecnologia uma forma de promover a igualdade, pensando em quantas mulheres tem vontade de entrar no ramo da tecnologia, porém tem ergonha por acreditar que é assunto para homens. </p>
+            <p class="justificado">Muito obrigado por visitar meu site, espero que tenha gostado!</p>
+        </div>
+        <div class="coluna dois">
+            <img id="carol" src="img/carol.jpeg" alt="Criadora" />
+        </div>
+    </section>
 
-	<section id="projeto">
-		<img src="igualdade.png">
-		<h1>Objetivo 5 da ONU: Alcançar a igualdade de gênero e empoderar todas as mulheres e meninas</h1>
-		<img src="igualdade.png">
-		<h1>Objetivo 5 da ONU: Alcançar a igualdade de gênero e empoderar todas as mulheres e meninas</h1>
-		<img src="igualdade.png">
-		<h1>Objetivo 5 da ONU: Alcançar a igualdade de gênero e empoderar todas as mulheres e meninas</h1>
-		<img src="igualdade.png">
-		<h1>Objetivo 5 da ONU: Alcançar a igualdade de gênero e empoderar todas as mulheres e meninas</h1>
-	</section>
+
+    <!-- Rodapé -->
+    <footer id="contato">
+        <h5>Meu primeiro site</h5>
+        <center>
+            <a href="" class="social"><img src="img/instagram.svg"></a>
+            <a href="" class="social"><img src="img/twitter.svg"></a>
+            <a href="" class="social"><img src="img/behance.svg"></a>
+        </center>
+        <div class="coluna dois">
+            <p>Projeto desenvolvido durante o curso Meu primeiro site, promovido pela Junior Achievement Brasil em conjunto com Microsoft.</p>
+        </div>
+        <div class="coluna dois">
+            <address>santos.caroline26@hotmail.com</address>
+            <address>(31)99921-8048</address>
+        </div>
+    </footer>
 
 
-	<div class="sobre">
-		<center>
-			<h2>
-			Sobre a Escritora
-			</h2>
-			<img src="carol.jpeg">
-			<h3>Essa sou eu!</h3>
-			<p>
-			Oi! Meu nome é Caroline Lage, porém gosto que me chamem de Carol. Sou interessada em diversas áreas, amo aprender e ensinar também. Uma das coisas que mais gosto é escrever, então vocês irão me ver muito por aqui. Digamos que eu já esteja um pouco mais avançada no meio de Web Design, programação e Marketing. Continuando à falar das coisas que eu amo, eu amo tocar Ukulele e amo trabalhar com Design.
-			</p>
-			
-		</center>	
-	</div>
-
-	<!-- Footer -->
-	<footer>
-		<section id="footer">
-		<div class="container">
-			<div class="social">
-				<h3>Me siga nas redes sociais!</h3>
-				<a href="#inicio"><img src="back.png"></a>
-			</div>
-		</div>
-		</section>
-	</footer>
 </body>
 </html>
